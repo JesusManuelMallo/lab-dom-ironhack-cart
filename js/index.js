@@ -48,10 +48,10 @@ window.addEventListener('load', () => {
   calculatePricesBtn.addEventListener('click', calculateAll);
 
   const removeProductsButtons = document.querySelectorAll('.btn-remove');
-  removeProductsButtons.forEach(button => {
+  removeProductsButtons.forEach(button) => {
     button.addEventListener('click', removeProduct);
   }
 
 
   //... your code goes here
-});
+}); 
